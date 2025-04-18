@@ -29,7 +29,8 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+#我的设置
+LOGIN_URL = '/users/login/'
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,6 +41,9 @@ INSTALLED_APPS = [
 
     #我的应用程序
     'learning_logs',
+    'users',
+
+
 ]
 
 MIDDLEWARE = [
